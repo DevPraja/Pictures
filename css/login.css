@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(../img/login.jpg) no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0;
+    cursor: pointer;
+    background-color: black;
+    
+}
+.nav-list{
+    width: 70%; 
+    display: flex; 
+    align-items: center;
+}
+.nav-list li{
+    list-style: none;
+    padding: 20px 20px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+
+}
+
+.first{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: 2px solid black;
+
+}
+
+.first img{
+    width: 300px;
+    height: 350px;
+    padding: 10px 70px;
+    margin-top: 100px;
+    cursor: pointer;
+
+}
+.para{
+    margin-left: 75px;
+    cursor: pointer;
+    
+}
+.rightNav{
+    padding: 10px;
+    
+
+}
+#search{
+    /* padding: 10px; */
+    margin: 4px 40px;
+    border-radius: 20px;
+    
+}
+.btn {
+    padding: 4px 3px;
+    margin: 2px 11px;
+    border-radius: 15px;
+    color: black;
+    cursor: pointer;
+    font-size: medium;
+}
+
+.container{ 
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 40%; 
+}
+
+.container h1{
+    font-family: 'Heebo', sans-serif;
+    width: 50%;
+    display: inline-block;
+    font-size: 25px;
+    border-bottom: 5px solid purple;
+    margin-bottom: 15px;
+    padding: 13px 0;
+}
+.box{
+    width: 100%; 
+    margin: 22px 0px;
+    border-bottom: 2px solid purple;
+}
+
+.box input{  
+    background: none;
+    width: 75%;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: none;
+    outline:none;
+    color: white;
+}
+.btn-login{
+    color: white;
+    cursor: pointer;
+    outline: none; 
+    margin: 12px 0;
+    padding: 10px 21px;
+    border: 2px solid purple;
+    border-radius: 10px;
+    font-size: 18px;
+    background: none;
+    font-weight: bold;
+    
+}
+
+.box i{ 
+    width: 25px; 
+    text-align: center;
+}
+
+.btn:hover{
+    opacity: 0.5;
+    color: purple; 
+    background: white; 
+    
+}
+.foot {
+    background: rgba(0, 0, 0, 0.384);
+    background-size: cover;
+    background-blend-mode: darken;
+    margin-top: auto;
+}
+.text-footer {
+    text-align: center;
+    padding: 15px 0;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}

@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+.navbar h1{
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0px;
+    padding: 7px 0px;
+    font-size: 35px;
+
+}
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: 2px solid black;
+    margin: auto;
+
+}
+.box{
+    margin: 50px 50px;
+    padding: 20px 20px;
+    background: bisque;
+    border: 2px solid black;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.box h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    padding-bottom: 50px;
+
+}
+.info {
+    margin: 0px 0px;
+    padding: 12px 22px;
+    padding-bottom: 25px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.price{
+    display: flex;
+    align-items: cen;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 12px 22px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.price:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 20px;
+}
+.foot{
+    background: rgba(0, 0, 0, 0.827);
+    background-size: cover;
+    background-blend-mode: darken;
+    margin-top: auto;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 15px 0px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
